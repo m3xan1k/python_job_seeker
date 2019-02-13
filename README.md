@@ -3,8 +3,8 @@ Programm to seek a freelance or permanent job in Russia for junior python develo
 
 1. You NEED to create "settings.json" file in "app" directory with "chat_id" and "bot_token" keys, that specify chat where you want to receive messages and telegram bot api token like this:
 {
-    "chat_id": "socks5://user:pass@host:port",
-    "bot_token": "socks5://user:pass@host:port"
+    "chat_id": "your_chat_id",
+    "bot_token": "your_bot_api_token"
 }
 
 2. You MAY want to specify proxies in "proxies.json" file like this:
